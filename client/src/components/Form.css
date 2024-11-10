@@ -1,0 +1,20 @@
+.prediction-result-container {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 50px; /* Optional: Add some space from the top */
+    background-color: rgb(128, 128, 128, 0.2);
+    padding: 10px 0 25px;
+    border-radius: 15px;
+}
+.prediction-result p {
+    display: grid;
+    grid-template-columns: 290px 1fr; /* Adjust width of the first column */
+    gap: 5px; /* Reduce the gap between columns */
+    text-align: left; /* Ensure left alignment */
+    margin: 5px 0; /* Optional: add a small margin between lines */
+    font-size: 1.1rem;
+}
+
+.prediction-result strong {
+    text-align: left;
+}
